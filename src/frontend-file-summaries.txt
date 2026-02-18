@@ -1,0 +1,22 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup, defining all routes (home, products, product detail, cart, checkout, payment success/failure) and wrapping the app with ThemeProvider and Toaster.",
+  "frontend/src/components/Layout.tsx": "Root layout component with Narie logo and tagline in header, updated navigation, cart functionality, user authentication, and footer with Narie branding and caffeine.ai attribution.",
+  "frontend/src/components/ProfileSetup.tsx": "Modal dialog that prompts authenticated users without a profile to enter their name and email on first login.",
+  "frontend/src/components/AdminPanel.tsx": "Admin-only panel that displays PaymentSetup component for configuring Stripe when user has admin privileges.",
+  "frontend/src/components/PaymentSetup.tsx": "Stripe configuration form for admins to input secret key and allowed countries, with success indicator when already configured.",
+  "frontend/src/components/HeroSection.tsx": "Hero banner section featuring the Narie logo, \"Where Elegance Blooms\" heading, \"Elegance in Floral\" tagline, floral background image, and call-to-action button.",
+  "frontend/src/components/ProductCard.tsx": "Product card component displaying product image, name, price, and available sizes with hover effects and navigation to product detail.",
+  "frontend/src/components/ProductGrid.tsx": "Responsive grid layout displaying all products using ProductCard components with loading skeletons and error states.",
+  "frontend/src/components/CartItem.tsx": "Cart item component with product image, details, quantity controls (increment/decrement), price calculation, and remove button.",
+  "frontend/src/pages/HomePage.tsx": "Home page with hero section and featured products grid.",
+  "frontend/src/pages/ProductsPage.tsx": "Products catalog page displaying all available products in a grid layout.",
+  "frontend/src/pages/ProductDetailPage.tsx": "Product detail page with large product image, description, size selector, and add to cart functionality.",
+  "frontend/src/pages/CartPage.tsx": "Shopping cart page displaying cart items, order summary with total, and checkout button.",
+  "frontend/src/pages/CheckoutPage.tsx": "Checkout page with shipping information form and order summary, creating Stripe checkout session and redirecting to payment.",
+  "frontend/src/pages/PaymentSuccessPage.tsx": "Payment success confirmation page with success message and navigation options.",
+  "frontend/src/pages/PaymentFailurePage.tsx": "Payment failure page with error message and retry options.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for all backend operations including products, cart management, order summary, user profile, admin checks, Stripe configuration, and checkout session creation.",
+  "frontend/src/index.css": "Global styles with OKLCH color system featuring gold tones (primary), teal accents (accent), and cream backgrounds for both light and dark modes, reflecting the Narie floral elegance theme.",
+  "frontend/tailwind.config.js": "Tailwind configuration with custom gold, teal, and cream color tokens, increased border radius for softer edges, and floral-themed shadow utilities.",
+  "frontend/index.html": "HTML entry point with updated title \"Narie - Elegance in Floral\", favicon using the Narie logo, and meta description for the rebranded application."
+}

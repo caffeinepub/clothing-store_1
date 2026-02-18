@@ -1,0 +1,116 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-the-application-name-to-narie-throughout-the-frontend-including-the-html-title-header-navigation-and-any-other-visible-branding-elements",
+      "featureTitle": "Update the application name to 'Narie' throughout the frontend, including the HTML title, header navigation, and any other visible branding elements",
+      "files": [
+        "frontend/index.html",
+        "frontend/src/components/Layout.tsx"
+      ],
+      "components": [
+        "stripe@3.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0",
+        "http-outcalls@3.0.0",
+        "authorization@4.0.0"
+      ],
+      "testIds": [
+        "REQ-5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-add-the-motto-elegance-in-floral-as-a-tagline-visible-on-the-homepage-and-or-header-positioned-elegantly-near-the-brand-name",
+      "featureTitle": "Add the motto 'Elegance in Floral' as a tagline visible on the homepage and/or header, positioned elegantly near the brand name",
+      "files": [
+        "frontend/src/components/HeroSection.tsx",
+        "frontend/src/components/Layout.tsx"
+      ],
+      "components": [
+        "stripe@3.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0",
+        "http-outcalls@3.0.0",
+        "authorization@4.0.0"
+      ],
+      "testIds": [
+        "REQ-6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-integrate-the-uploaded-brand-logo-images-featuring-the-decorative-gold-floral-emblem-with-teal-accent-and-narie-text-as-static-assets-throughout-the-application-including-the-header-favicon-and-hero-section",
+      "featureTitle": "Integrate the uploaded brand logo images (featuring the decorative gold floral emblem with teal accent and 'NARIE' text) as static assets throughout the application, including the header, favicon, and hero section",
+      "files": [
+        "frontend/index.html",
+        "frontend/src/components/HeroSection.tsx",
+        "frontend/src/components/Layout.tsx"
+      ],
+      "components": [
+        "stripe@3.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0",
+        "http-outcalls@3.0.0",
+        "authorization@4.0.0"
+      ],
+      "testIds": [
+        "REQ-7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-the-hero-section-heading-from-timeless-elegance-to-align-with-the-narie-brand-identity-and-elegance-in-floral-motto-ensuring-the-new-heading-reflects-the-floral-elegance-theme",
+      "featureTitle": "Update the hero section heading from 'Timeless Elegance' to align with the Narie brand identity and 'Elegance in Floral' motto, ensuring the new heading reflects the floral elegance theme",
+      "files": [
+        "frontend/src/components/HeroSection.tsx"
+      ],
+      "components": [
+        "stripe@3.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0",
+        "http-outcalls@3.0.0",
+        "authorization@4.0.0"
+      ],
+      "testIds": [
+        "REQ-8"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-refine-the-visual-theme-to-incorporate-floral-elegance-using-colors-inspired-by-the-uploaded-logo-gold-tones-teal-accents-cream-background-and-ensuring-the-warm-earth-tone-palette-is-adjusted-to-emphasize-botanical-sophistication",
+      "featureTitle": "Refine the visual theme to incorporate floral elegance, using colors inspired by the uploaded logo (gold tones, teal accents, cream background) and ensuring the warm earth tone palette is adjusted to emphasize botanical sophistication",
+      "files": [
+        "frontend/src/components/HeroSection.tsx",
+        "frontend/src/index.css",
+        "frontend/tailwind.config.js"
+      ],
+      "components": [
+        "stripe@3.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0",
+        "http-outcalls@3.0.0",
+        "authorization@4.0.0"
+      ],
+      "testIds": [
+        "REQ-9"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

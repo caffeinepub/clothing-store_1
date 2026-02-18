@@ -1,0 +1,108 @@
+{
+  "kind": "build_request",
+  "title": "Rebrand application to Narie with floral elegance theme",
+  "projectName": "Narie",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-5",
+      "text": "Update the application name to 'Narie' throughout the frontend, including the HTML title, header navigation, and any other visible branding elements",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-latest"
+        ],
+        "quotes": [
+          "The name is Narie"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The browser tab title displays 'Narie'",
+        "The header navigation shows 'Narie' as the brand name",
+        "All references to 'Clothing Store' are replaced with 'Narie'"
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "text": "Add the motto 'Elegance in Floral' as a tagline visible on the homepage and/or header, positioned elegantly near the brand name",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-latest"
+        ],
+        "quotes": [
+          "The moto is elegance in floral"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The tagline 'Elegance in Floral' appears on the homepage",
+        "The typography and placement complement the brand identity",
+        "The tagline is styled with elegant, refined typography"
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "text": "Integrate the uploaded brand logo images (featuring the decorative gold floral emblem with teal accent and 'NARIE' text) as static assets throughout the application, including the header, favicon, and hero section",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-latest"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The Narie logo with floral emblem appears in the header navigation",
+        "The favicon uses the Narie brand logo",
+        "The logo maintains its elegant gold and teal color scheme",
+        "Logo images are properly sized and optimized for web display"
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "text": "Update the hero section heading from 'Timeless Elegance' to align with the Narie brand identity and 'Elegance in Floral' motto, ensuring the new heading reflects the floral elegance theme",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-latest"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The hero section heading reflects the Narie brand and floral elegance theme",
+        "The heading typography maintains the elegant, refined aesthetic",
+        "The heading complements the 'Elegance in Floral' motto"
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "text": "Refine the visual theme to incorporate floral elegance, using colors inspired by the uploaded logo (gold tones, teal accents, cream background) and ensuring the warm earth tone palette is adjusted to emphasize botanical sophistication",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-latest"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Color palette includes gold/golden tones and teal accents inspired by the logo",
+        "The cream/beige background from the logo informs the overall color scheme",
+        "Typography and spacing convey botanical elegance",
+        "The design feels cohesive with the floral motif theme"
+      ]
+    }
+  ],
+  "constraints": [
+    "Preserve the existing warm earth tone color system while incorporating gold and teal accents",
+    "Do not modify the backend actor or any backend logic",
+    "Do not edit immutable frontend paths (useInternetIdentity hooks, useActor, main.tsx, components/ui)"
+  ],
+  "nonGoals": [
+    "Adding new product features or functionality",
+    "Changing the shopping cart or checkout flow",
+    "Modifying Stripe payment integration",
+    "Adding new pages or routes"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Hero banner background image with soft floral motifs in gold and teal on cream background, elegant and sophisticated (hero-floral.dim_1920x800.png)"
+    ],
+    "edits": []
+  }
+}
